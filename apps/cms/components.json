@@ -5,14 +5,14 @@
     "tsx": true,
     "tailwind": {
         "config": "tailwind.config.js",
-        "css": "src/app/(frontend)/globals.css",
+        "css": "src/app/globals.css",
         "baseColor": "neutral",
         "cssVariables": true
     },
     "aliases": {
-        "components": "@/app/(frontend)/_components",
-        "ui": "@/app/(frontend)/_components/ui",
-        "utils": "@/app/(frontend)/_util"
+        "components": "@/components",
+        "ui": "@/components/ui",
+        "utils": "@/lib/utils"
     },
     "iconLibrary": "lucide"
 }
